@@ -19,6 +19,5 @@ Whether or not text representing the day, date and time of the last node update 
 Questions, Bug reports and Feature requests can all be added to the Issue Queue for this module, located at:
 https://github.com/backdrop-contrib/updated/issues
 
-
 ## License
 This is Free and Open Source (FOSS) software.  Please refer to the LICENSE.txt file for a full description of its licensing terms.
