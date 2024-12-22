@@ -1,5 +1,5 @@
 # Last updated (updated) Module
-This module enables the ability to monitor the last tine a node has been updated.  Update-related information is always available in the Administrative GUI, and can also be selectively exposed in the User GUI according to the status of a checkbox in the node edit form.  For more comprehensive information about this module, please refer to the Documentation area of:
+This module enables the ability to monitor the last time a node has been updated.  Update-related information is always available in the Administrative GUI, and can also be selectively exposed in the User GUI according to the status of a checkbox in the node edit form.  For more comprehensive information about this module, please refer to the Documentation area of:
 https://github.com/backdrop-contrib/updated
 
 ## Installation
