@@ -13,7 +13,7 @@ Visit Administration > Structure > Content types (admin/structure/types) to see 
 The day, date and time of the last time a node was updated always appears as a read-only field appearing in the "Authoring information" section of the node edit form.
 
 ## User GUI Visibility
-Control over whether or not the day, date and time of the last node update will appear in the User GUI is controlled via a checkbox located in the "Publishing options" section of the node edit form.  Through this mechanism, it is possible to control the display of node last update information on a node-by-node basis.
+Control over whether or not the day, date and time of the last node update appears in the User GUI is controlled via a checkbox located in the "Publishing options" section of the node edit form.  Through this mechanism, it is possible to control the display of node last update information on a node-by-node basis.
 
 ## Issues
 Questions, Bug reports and Feature requests can all be added to the Issue Queue for this module, located at:
