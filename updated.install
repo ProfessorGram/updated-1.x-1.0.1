@@ -14,6 +14,7 @@ function updated_install() {
     'not null' => TRUE,
     'default' => 0,
   ));
+
   // Add a show_updated column to the node_revision table.
   db_add_field('node_revision', 'show_updated', array(
     'type' => 'int',
@@ -32,7 +33,20 @@ function updated_uninstall() {
 
   // Remove show_updated column from node table.
   db_drop_field('node', 'show_updated');
+
   // Remove show_updated column from node_revision table.
   db_drop_field('node_revision', 'show_updated');
 }
 
+/**
+ * Upgrade from Drupal 7.
+ */
+function updated_update_1000() {
+  // Convert D7 variables to config.
+  $config = config('updated.settings');
+  $config->set('opinion_of_backdrop', update_variable_get('updated_opinion_drupal', 'Awesome!'));
+  $config->save();
+
+  // Delete D7 variables.
+  update_variable_del('updated_opinion_drupal');
+}

@@ -1,10 +1,4 @@
+type = module
 name = Last Updated
-description = Displays the last updated information for a node.
-core = 7.x
-
-; Information added by Drupal.org packaging script on 2017-02-21
-version = "7.x-1.0-beta2"
-core = "7.x"
-project = "updated"
-datestamp = "1487713688"
-
+description = Displays when a node was last updated.
+backdrop = 1.x
