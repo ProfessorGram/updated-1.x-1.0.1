@@ -10,9 +10,10 @@ https://backdropcms.org/guide/modules
 Visit Administration > Structure > Content types (admin/structure/types) to see a list of all available Content types.  The functionality of this module can be enabled for any Content type.
  
 ## Administrative GUI Visibility
-Create (or edit) any node.  The last day, date and time the node was updated date will always appear in the "Authoring information" section.  
-# User GUI Visibility
-Control over whether Last updated information appear in the User GUI is controlled via a checkbox located in the "Publishing options" section of the node edit form.  The display of Last updated information may be enabled on a per-node basis.
+The day, date and time of the last time a node was updated alwayss appears in the "Authoring information" section of the node edit form.
+
+## User GUI Visibility
+Control over whether or not the day, date and time of the last node update will appear in the User GUI is controlled via a checkbox located in the "Publishing options" section of the node edit form.  Through this mechanism, it is possible to control the display of node last update information on a per-node basis.
 
 ## Issues
 Questions, Bug reports and Feature requests can all be added to the Issue Queue for this module, located at:
